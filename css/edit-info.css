@@ -15,6 +15,10 @@
 	border: solid 1px lightgray;
 }
 
+.new-info-list__item > h2 {
+	color: lightgray;
+}
+
 .add-new-info {
 	display: block;
 	width: 100%;
