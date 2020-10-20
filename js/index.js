@@ -49,7 +49,7 @@ const getData = info => {
 				<ul class="info-list__item">
 					<li>
 						<h3>${getHour(i)}</h3>
-						<img class="info__image" src="../images/weather-types/${info.weather[i]}.jpg" alt="${info.weather[i]}" title="${info.weather[i]}"> 
+						<img class="info__image" src="./images/weather-types/${info.weather[i]}.jpg" alt="${info.weather[i]}" title="${info.weather[i]}"> 
 					</li>
 					<li>
 						<span>Температура</span>
@@ -93,7 +93,7 @@ settings.addEventListener('click', () => {
 	const setWindow = Lib.modal({
 		title: 'Cities',
 		content: `
-			<p class="cities-text">Please, choose city:<img src="../images/settings.png" class="edit-button" alt="edit" title="edit"></p>
+			<p class="cities-text">Please, choose city:<img src="./images/settings.png" class="edit-button" alt="edit" title="edit"></p>
 			<input class="cities-search" placeholder="Search" type="text">
 			${getCitiesList(data)}
 		`,
